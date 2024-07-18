@@ -2,8 +2,156 @@
 
 body{
   font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
 }
 *{
   margin: 0;
   padding: 0;
+}
+/* navbar section */
+.nav_contenar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title{
+  margin-left: 12.6rem;
+  margin-top: 3.8rem;
+}
+.nav_title h1{
+  color: rgb(230, 83, 60);
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.nav_opt{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3.8rem;
+  margin-right: 12.6rem;
+  gap: 3rem;
+}
+.orng{
+  background-color: rgb(230, 83, 60);
+  border-radius: 46px;
+  padding: .6rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.opt_nam{
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* banner section */
+.banner_contenar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(119, 119, 119, 0);
+}
+.text_contenar{
+  margin-left: 1.5rem;
+  margin-top: 6.4rem;
+}
+.ban_text_title{
+  font-size: 5.2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.shape{
+  font-family: "Style Script", cursive;
+}
+.ban_sub_title{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn_prymari{
+  background-color: rgb(230, 83, 60);
+  padding: 1rem 2.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 42px;
+}
+.dow_btn{
+  padding: 1rem 2.5rem;
+  color: white;
+  background-color: black;
+  border-radius: 42px;
+  border-color: wheat;
+}
+.top_card{
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+text-align: center;
+width: 193px;
+height: 95px;
+text-align: center;
+margin-top: -450px;
+margin-left: 230px;
+
+}
+.top_card h5{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.top_card p{
+  font-size: .8rem;
+  font-weight: 400;
+}
+.bottom_card{
+  box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+text-align: center;
+width: 193px;
+height: 95px;
+text-align: center;
+margin-top: 280px;
+margin-right: 150px;
+}
+.bottom_card h5{
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.bottom_card p{
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+
+/* mobile responsive */
+@media screen and (max-width: 576px){
+  .nav_title{
+    margin-left: 1.3rem;
+    margin-top: 3.4rem;
+    margin-right: 13.5rem;
+  }
+.opt_nam, .orng{
+  display: none;
+}
+.banner_contenar{
+  flex-direction: column;
+}
+.ban_text_title{
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.text_contenar, .btn_prymari, .dow_btn{
+flex-direction: row;
+}
+.btn_prymari{
+ padding: 14px 25px;
+
+  
+}
 }
