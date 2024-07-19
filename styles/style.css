@@ -154,6 +154,45 @@ margin-right: 150px;
 .hab_imgs p{
   color: rgba(255, 255, 255, 0.5);
 }
+/* run and extra section */
+.run_contenar{
+  width: 80%;
+  height: 21rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 34);
+  border-radius: 18px;
+  margin: 0 auto;
+}
+.run_text_contenar{
+  width: 30rem;
+  height: 19rem;
+  text-align: left;
+  margin-top: 2.7rem;
+  margin-left: 3.6rem;
+  margin-right: 11rem;
+  margin-bottom: 3.6rem;
+}
+.run_text_title{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.run_subtitle{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.run_img_contenar{
+  width: 24.5rem;
+  height: 20rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.run_img_contenar img{
+  width: 100%;
+}
 
 
 
@@ -163,6 +202,7 @@ margin-right: 150px;
 
 /* mobile responsive */
 @media screen and (max-width: 576px){
+  /* nav section */
   .nav_title{
     margin-left: 1.3rem;
     margin-top: 3.4rem;
@@ -171,6 +211,7 @@ margin-right: 150px;
 .opt_nam, .orng{
   display: none;
 }
+/* banner section */
 .banner_contenar{
   flex-direction: column;
 }
@@ -179,6 +220,7 @@ margin-right: 150px;
   font-weight: 900;
   margin-bottom: 2rem;
 }
+/* habit section */
 .habits_contenar{
 text-align: center;
 }
@@ -203,5 +245,38 @@ text-align: center;
 .hab_imgs{
   width: 80%;
 }
+/* run section */
+.run_contenar{
+  flex-direction: column;
+  width: 80%;
+  height: 36rem;
+  justify-content: center;
+  align-items: center;
+}
+.run_text_contenar{
+
+  width: 70%;
+  margin: 3rem 2rem;
+}
+ .run_text_title{
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.run_subtitle{
+  font-size: .8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.run_img_contenar{
+  width: 70%;
+}
+#run_btn{
+  width: 90%;
+}
 
 }
+
+
+
+
